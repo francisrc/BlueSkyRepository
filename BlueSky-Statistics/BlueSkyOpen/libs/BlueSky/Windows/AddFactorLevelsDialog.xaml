@@ -1,0 +1,30 @@
+﻿<Window x:Class="BlueSky.Windows.AddFactorLevelsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Factor Levels Dialog" Height="260" Width="318" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="1"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Height="18" HorizontalAlignment="Left" Margin="5,5,0,0" Name="textBlock1" Text="New factor level:" VerticalAlignment="Top" Width="190" />
+        <TextBox Grid.Row="1" Height="25" HorizontalAlignment="Left" Margin="5,5,0,0" Name="faclvltxt" VerticalAlignment="Top" Width="182" />
+        
+        <TextBlock  Grid.Row="2" Height="18" HorizontalAlignment="Left" Margin="5,5,0,0" Name="textBlock2" Text="Current Factor Levels:" VerticalAlignment="Top" Width="149" />
+        <ListBox  Grid.Row="3" Height="100" HorizontalAlignment="Left" Margin="5,5,0,0" Name="levelsListBox" VerticalAlignment="Top" Width="182" />
+        <Button Grid.Row="1" Grid.Column="2" Content="Add New Level" Height="21" HorizontalAlignment="Left" Margin="5" Name="addlvlButton" VerticalAlignment="Top" Width="90" Click="addlvlButton_Click"/>
+        <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal">
+        <Button   Content="OK" Height="23" HorizontalAlignment="Left" Margin="5" Name="okbutton" VerticalAlignment="Top" Width="50" Click="okbutton_Click"/>
+        <Button  Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="5" Name="cancelbutton" VerticalAlignment="Top" Width="60" Click="cancelbutton_Click" />
+        </StackPanel>
+        <Button Grid.Row="3" Grid.Column="2" Content="Remove Level" Height="23" HorizontalAlignment="Left" Margin="4,5,0,0" Name="removelvlbutton" VerticalAlignment="Top" Width="90" Click="removelvlbutton_Click"/>
+    </Grid>
+</Window>

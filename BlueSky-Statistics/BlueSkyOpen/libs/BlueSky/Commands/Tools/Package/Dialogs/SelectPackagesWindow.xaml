@@ -1,0 +1,13 @@
+﻿<Window x:Class="BlueSky.Commands.Tools.Package.Dialogs.SelectPackagesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Packages Window" Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock Height="20" HorizontalAlignment="Left" Margin="19,10,0,0" Name="title" Text="" VerticalAlignment="Top" Width="247" FontWeight="Bold" />
+        <TextBlock Height="20" HorizontalAlignment="Left" Margin="19,35,0,0" Name="tb1" Text="Select one or more packages:" VerticalAlignment="Top" Width="247" />
+        <TextBlock Height="18" HorizontalAlignment="Left" Margin="19,50,0,0" Name="tb2" Text="( Tip: Use Ctrl or Shift key for multi-select.)" VerticalAlignment="Top" Width="247" FontSize="10" />
+        <ListBox Height="160" HorizontalAlignment="Left" Margin="19,65,0,0" Name="pkgListbox" VerticalAlignment="Top" Width="247" SelectionMode="Extended" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Left" Margin="19,235,0,0" Name="okButton" VerticalAlignment="Top" Width="48" Click="okButton_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="215,235,0,0" Name="cancelButton" VerticalAlignment="Top" Width="51" Click="cancelButton_Click" />
+    </Grid>
+</Window>

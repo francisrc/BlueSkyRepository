@@ -1,0 +1,5 @@
+Package: BlueSky
+Version: 4.35-4
+Depends: R (>= 2.15.0)
+License: GPL (>= 2)
+

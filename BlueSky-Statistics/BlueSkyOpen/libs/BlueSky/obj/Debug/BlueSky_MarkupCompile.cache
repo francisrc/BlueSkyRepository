@@ -1,0 +1,20 @@
+﻿BlueSky
+
+
+winexe
+C#
+.cs
+D:\BlueSky Statistics\Projects\BluSky-GitHub-Repo\BlueSky-Statistics\BlueSkyOpen\libs\BlueSky\obj\Debug\
+BlueSky
+none
+false
+DEBUG;TRACE
+D:\BlueSky Statistics\Projects\BluSky-GitHub-Repo\BlueSky-Statistics\BlueSkyOpen\libs\BlueSky\App.xaml
+25-283251230
+453388163
+80-2145614292
+50-341344263
+ColorSelectorWindow.xaml;Commands\File\SelectTableWindow.xaml;Commands\Tools\Package\Dialogs\AskPackageNameWindow.xaml;Commands\Tools\Package\Dialogs\InstallRequiredPackagesFromZip.xaml;Commands\Tools\Package\Dialogs\SelectPackagesWindow.xaml;ComputeVar.xaml;Dialogs\BSkyWarningMsgBox.xaml;InspectDialog.xaml;MainWindow.xaml;OutputWindow.xaml;SyntaxEditorWindow.xaml;UserControls\DataDocument.xaml;Windows\AddFactorLevelsDialog.xaml;Windows\CustomSettingsWindow.xaml;Windows\DatasetLoadingBusyWindow.xaml;Windows\FindReplaceWindow.xaml;Windows\MenuAboveBelowDialog.xaml;Windows\MissingValuesDialog.xaml;Windows\OptionSelection.xaml;UserControls\VariableList.xaml;Window1.xaml;Windows\DataPanel.xaml;Windows\SplashWindow.xaml;Windows\ValueLabelsSubDialog.xaml;Windows\ValueLabelsDialog.xaml;
+
+False
+

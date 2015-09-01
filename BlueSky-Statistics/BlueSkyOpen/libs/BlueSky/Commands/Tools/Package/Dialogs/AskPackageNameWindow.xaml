@@ -1,0 +1,15 @@
+﻿<Window x:Class="BlueSky.Commands.Tools.Package.Dialogs.AskPackageNameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CRAN Package Install Window" Height="188" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Height="153">
+        
+        <TextBlock Height="18" HorizontalAlignment="Left" Margin="12,12,0,0" Name="title" Text="Please enter the name(s) of one or more package(s)" VerticalAlignment="Top" Width="296" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,30,0,0" Name="mesg" Text="separated by comma.(package names are case sensitive)" VerticalAlignment="Top" Width="304" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="11,56,0,0" Name="pkgname" VerticalAlignment="Top" Width="297" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Left" Margin="16,119,0,0" Name="okbutton" VerticalAlignment="Top" Width="49" Click="okbutton_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="84,119,0,0" Name="cancelbutton" VerticalAlignment="Top" Width="52" Click="cancelbutton_Click" />
+        <TextBlock Height="17" HorizontalAlignment="Left" Margin="11,80,0,0" Name="textBlock1" Text="Example 1: foreign" VerticalAlignment="Top" Width="297" />
+        <TextBlock Height="18" HorizontalAlignment="Left" Margin="11,97,0,0" Name="textBlock2" Text="Example 2: foreign, car, MASS" VerticalAlignment="Top" Width="255" />
+    </Grid>
+</Window>
